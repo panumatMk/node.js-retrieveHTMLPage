@@ -23,5 +23,5 @@ request(url)
     console.log(result.data);
   })
   .catch(function(err) {
-    //handle error
+    console.log(err);
   });
